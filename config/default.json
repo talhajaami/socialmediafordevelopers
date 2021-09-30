@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://talha:talha@cluster0.56vom.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret": "mySecretToken"
+}
