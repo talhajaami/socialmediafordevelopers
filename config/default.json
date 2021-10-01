@@ -1,4 +1,6 @@
 {
     "mongoURI": "mongodb+srv://talha:talha@cluster0.56vom.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "jwtSecret": "mySecretToken"
+    "jwtSecret": "mySecretToken",
+    "githubClientId": "19064c376fbe5a5dc0ae",
+    "githubSecret": "d28be3d56a1d2df8734ceb249ba932bff549304d"
 }
