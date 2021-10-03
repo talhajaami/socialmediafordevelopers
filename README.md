@@ -2,4 +2,4 @@
 
 npm install
 
-nodemon server
+node run dev
