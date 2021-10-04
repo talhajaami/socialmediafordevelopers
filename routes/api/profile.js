@@ -11,7 +11,7 @@ const config = require('config')
 //@route        GET API/Profile/Me
 //@desc         Get current user profile
 //@access       private
-router.get('/', auth, async (req, res) => {
+router.get('/me', auth, async (req, res) => {
   try {
     const profile = await Profile.findOne({ user: req.user.id }).populate(
       'user',
